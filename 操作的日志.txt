@@ -1,0 +1,29 @@
+2020.10.19 向服务器MYSQL数据库创建index_html库与添加表:CREATE TABLE work_notes( ID INT NOT NULL  AUTO_INCREMENT , label char(50) NOT NULL, title char(100) NOT NULL,content VARCHAR(2500) NOT NULL, table_time TIMESTAMP not null default CURRENT_TIMESTAMP,PRIMARY KEY(ID,label))ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020.10.20 	MySQL数据库被清，重新建立index_html库和work_notes表
+2020.10.20  搭建不同的环境进来。直接用源码搭建的，安全隐患很大，但还有半年时间就进行安全。
+2020.11.10  让全部的管理以及网站都开放出来，应该会造成很大的风险，所以备份好资料。
+2020.11.21  开始对自己的环境进行分析，同是今天也开放建立了ftp，外网访问还有点问题，内网可以。
+2020.12.2   即将准备开始对web网站可以直接运行shell，同时运行的目的是为了记录操作日志。
+2020.12.5   开始使用php shell环境，同时新建worklog数据表。
+2020.12.5   已经完成对服务器的php shell 运行环境的搭建，但服务器非常的卡。
+2020.12.12  服务器准备到期，需要时间来转移服务器，时间已经确定在这个月
+2020.12.23  开始转移服务器，现在清空环境，转移完成
+2021.1.26   cookie和session已经做好了，开始使用，同时开始准备做登录日志跟操作日志，但我觉得没有必要，至少前期是如此。要做一个限制登录的，限制为5次登录锁定IP，没有时间去完成
+2021.2.1 	添加work_log表 /*CREATE TABLE work_log(ID INT NOT NULL  AUTO_INCREMENT,context VARCHAR(2500) NOT NULL,table_time TIMESTAMP not null default CURRENT_TIMESTAMP,PRIMARY KEY(ID,table_time) )ENGINE=InnoDB DEFAULT CHARSET=utf8; */
+2021.2.3  首页的布局有明显的缓存，需要更新首页，考虑到需要查看一些信息以及之后网站的布局，要大规模的更改，保存日志修改文件
+2021.2.12   继续对首页的更新，但是效果还不好
+2021.4.4    已更新对首页的布局，后面的日志以及其他情况待考虑
+2021.4.23   已经完成对ftp的布局，但是只允许账号密码登陆，没有设置匿名登陆以及账号的权限设置
+2021.5.11   开始搭建邮件服务器
+2021.5.14   搭建服务器已完成，SMTP使用本地服务，pop使用hMailServer-5.6.7-B2425，本机25端口开启（平台解封），smtp没做限制，可以通过web服务连接邮件服务器
+2021.5.18    搭建云盘，使用可道云的源码，数据库名为yunpan，密码aa19991104..
+2021.5.19    搭建穿透服务器，用来协助内网穿透。安装文件：C:\Program Files\nps，web文件：C:\phpstudy_pro\WWW\nps\windows_amd64_server    ，因为域名原因，暂时不搭建
+2021.5.21    等台式电脑买了就开始做自己的内网穿透
+2021.5.24    配置HTTPS，为了后面的访问需要。
+2021.5.25    搭建博客，使用wordpress，数据库名wordpress
+2021.6.8	 修改主页，添加框架上去
+2021.6.9	 重新修改主页架构
+2021.6.30	 重新做后台，前端也跟着改变
+
+
+

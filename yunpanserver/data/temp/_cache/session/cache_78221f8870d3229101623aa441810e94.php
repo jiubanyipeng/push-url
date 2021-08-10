@@ -1,0 +1,1 @@
+<?php exit;?>a:2:{s:3:"kod";i:1;s:9:"checkCode";s:4:"65p5";}

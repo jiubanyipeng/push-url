@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>jQuery鼠标经过图片局部放大 - 源码之家</title>
+
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="css/demo.css">
+<link rel="stylesheet" type="text/css" href="css/zoomio.css">
+<style type="text/css">
+	.content{
+		width: 700px;
+		margin:50px auto;
+	}
+	/* sample CSS to set the initial dimensions of images that will be zoomable */
+	.sampleimage{
+		width: 300px;
+		height: auto;
+		margin-right: 20px;
+	}
+</style>
+
+</head>
+<body>
+<div class="container">
+	<header class="header">
+		<div class="demo center">
+		  <a href="index.html" class="current">DEMO1</a>
+		  <a href="index2.html">DEMO2</a>
+		</div>
+	</header>
+	<div class="content">
+		<img class="sampleimage" src="img/bluewall.jpg" /> 
+		<img class="sampleimage" src="img/carandgirl.jpg" />
+	</div>
+</div>
+
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/zoomio.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".sampleimage").zoomio();
+	})
+</script>
+
+
+</body>
+</html>

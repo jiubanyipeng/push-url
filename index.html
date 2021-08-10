@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>玖伴一鹏的个人网站</title>
+    <link type="text/css" rel="stylesheet" href="./css/1page.css">
+    <link type="text/css" rel="stylesheet" href="./框架/html5唯美爱情表白动画网页代码/renxi/default.css">
+    <script type="text/javascript" src="./框架/HTML5 canvas树木生长动画代码/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./框架/HTML5 canvas树木生长动画代码/js/drawTree.js"></script>   
+    <script type="text/javascript" src="./框架/html5唯美爱情表白动画网页代码/renxi/jquery.min.js"></script>
+    <script type="text/javascript" src="./框架/html5唯美爱情表白动画网页代码/renxi/jscex.min.js"></script>
+    <script type="text/javascript" src="./框架/html5唯美爱情表白动画网页代码/renxi/jscex-parser.js"></script>
+    <script type="text/javascript" src="./框架/html5唯美爱情表白动画网页代码/renxi/jscex-jit.js"></script>
+    <script type="text/javascript" src="./框架/html5唯美爱情表白动画网页代码/renxi/jscex-builderbase.min.js"></script>
+    <script type="text/javascript" src="./框架/html5唯美爱情表白动画网页代码/renxi/jscex-async.min.js"></script>
+    <script type="text/javascript" src="./框架/html5唯美爱情表白动画网页代码/renxi/jscex-async-powerpack.min.js"></script>
+    <script type="text/javascript" src="./框架/html5唯美爱情表白动画网页代码/renxi/functions.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./框架/html5唯美爱情表白动画网页代码/renxi/love.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    var index=0;
+    //改变图片
+    function ChangeImg() {
+        index++;
+        var a=document.getElementsByClassName("img-slide");
+        if(index>=a.length) index=0;
+        for(var i=0;i<a.length;i++){
+            a[i].style.display='none';
+        }
+        a[index].style.display='block';
+    }
+    //设置定时器，每隔两秒切换一张图片
+    setInterval(ChangeImg,2000);
+</script>
+
+</head>
+ 
+<body>
+<div id="zongbuju">
+
+<div class="daohangtiao">
+
+<div id="daohangtiao_a_1"><a id="shezhi_a" href="index.html">首页</a>
+</div> 
+
+<div id="daohangtiao_a_2">
+    <ul id="shezhi_ul">
+        <li><a id="shezhi_a" href="study.html">个人学习</a>
+            <ul>
+                <li><a id="shezhi_a_1" href="./3page/study-python.html">python的学习</a></li>
+                <li><a id="shezhi_a_1" href="./3page/study-JAVA.html">Java的学习</a></li>
+                <li><a id="shezhi_a_1" href="./3page/study-MYSQL.html">mysql的学习</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<div id="daohangtiao_a_3">
+    <ul id="shezhi_ul">
+        <li><a id="shezhi_a" href="data.html">个人资料</a>
+            <ul>
+                <li><a id="shezhi_a_2" href="./3page/data-study.html">学习资料</a></li>
+                <li><a id="shezhi_a_2" href="./3page/data-video.html">视频资料</a></li>
+                <li><a id="shezhi_a_2" href="./3page/data-course.html">教材资料</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<div id="daohangtiao_a_4">
+    <ul id="shezhi_ul">
+        <li><a id="shezhi_a" href="collect.html">个人收藏</a>
+            <ul>
+                <li><a id="shezhi_a_2" href="./3page/colletc-comic.html">动漫收藏</a></li>
+                <li><a id="shezhi_a_2" href="./3page/colletc-film.html">电影收藏</a></li>
+                <li><a id="shezhi_a_2" href="./3page/colletc-funny.html">搞笑收藏</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<div id="daohangtiao_a_5">  
+    <ul id="shezhi_ul">
+        <li><a id="shezhi_a" href="note.html">个人笔记</a>
+            <ul>
+                <li><a id="shezhi_a_1" href="./3page/note-python.html">python笔记</a></li>
+                <li><a id="shezhi_a_1" href="./3page/note-JAVA.html">Java笔记</a></li>
+                <li><a id="shezhi_a_1" href="./3page/note-MYSQL.html">mysql笔记</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<div id="daohangtiao_a_6">
+    <ul id="shezhi_ul">
+        <li><a id="shezhi_a" href="journal.html">个人日志</a>
+            <ul>
+                <li><a id="shezhi_a_2" href="./3page/journal-study.html">学习日志</a></li>
+                <li><a id="shezhi_a_2" href="./3page/journal-life.html">生活日志</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+</div>
+
+
+<dvi class="zuoxiabuju">
+	<p class="p_1-1"><a href="study.html">个人学习</a></p>
+	<p class="p_1-2"><a href="./3page/study-python.html">python</a></p>
+	<p class="p_1-3"><a href="./3page/study-JAVA.html">JAVA</a></p>
+	<p class="p_1-4"><a href="./3page/study-MYSQL.html">MYSQL</a></p>
+	<p class="p_2-1"><a href="data.html">个人资料</a></p>
+	<p class="p_2-2"><a href="./3page/data-study.html">学习</a></p>
+	<p class="p_2-3"><a href="./3page/data-video.html">视频</a></p>
+	<p class="p_2-4"><a href="./3page/data-course.html">教材</a></p>
+	<p class="p_3-1"><a href="collect.html">个人收藏</a></p>
+	<p class="p_3-2"><a href="./3page/colletc-comic.html">动漫</a></p>
+	<p class="p_3-3"><a href="./3page/colletc-film.html">电影</a></p>
+	<p class="p_3-4"><a href="./3page/colletc-funny.html">搞笑</a></p>
+	<p class="p_4-1"><a href="note.html">个人笔记</a></p>
+	<p class="p_4-2"><a href="./3page/note-python.html">python</a></p>
+	<p class="p_4-3"><a href="./3page/note-JAVA.html">JAVA</a></p>
+	<p class="p_4-4"><a href="./3page/note-MYSQL.html">MYSQL</a></p>
+	<p class="p_5-1"><a href="journal.html">个人日志</a></p>
+	<p class="p_5-2"><a href="./boke">博客</a></p>
+	<p class="p_5-3"><a href="daohang.html">导航</a></p>
+</div>
+
+<!-- 轮播图-->
+<div class="imgBox">
+    <img class="img-slide img1" src="img/11.jpg" alt="1">
+    <img class="img-slide img2" src="img/12.jpg" alt="2">
+    <img class="img-slide img3" src="img/13.jpg" alt="3">
+    <img class="img-slide img4" src="img/14.jpg" alt="4">
+</div>
+
+<div class="youbuju">
+<!-- HTML5 canvas树木生长动画代码 -->
+<!--<div id="draw"><script type="text/javascript">$('#draw').drawTree();</script></div> --> 
+
+	<h3 style="padding:1em;color:#CC0099">成功的路要靠自己去探索</h3>
+	<p>一个人要穿过沼泽地，因为没有路，便试探着走。虽很艰险，左跨右跳，竟也能找出一段路来，可好境不长，未走多远，不小心一脚踏进烂泥里，沉了下去。</p>
+	<p>又有一个人要穿过沼泽地，看到前人的脚印，便想：这一定是有人走过，沿着别人的脚印走一定不会有错。用脚试着踏去，果然实实在在，于是便放心走下去。最后也一脚踏空沉入了烂泥。</p>
+	<p>又有一个人要穿过沼泽地，看着前面两人的脚印，想都未想便沿着走了下去，他的命运也是可想而知的。</p>
+	<p>……</p>
+	<p>又有一个人要穿过沼泽地，看着前面众人的脚印，心想：这必定是-条通往沼泽地彼端的大道，看，已有这么多人走了过去，沿此走下去我也一定能走到沼泽的彼端。于是大踏步地走去，最后他也沉入了烂泥。</p>
+	世上的路不是走的人越多了越平坦越顺利，沿着别人的脚印走，不仅走不出新意，有时还可能会跌进陷阱。</p>
+</br>
+	<h3 style="padding:1em;color:#CC0099">善良是人生最宝贵的财富</h3>
+	<p>种善因，得善果，种下善良，收获感动，种下美好，收获幸福。</p>
+	<p>善良的心可以把岁月装点成诗，将生命装点成画，生活中有了善良，就像生命中溢满了阳光，定会百花争艳，绿树成荫，蝶飞花舞，芳香四溢。</p>
+	<p>你给我一个拥抱，我还你一个笑脸，你给我一滴水，我倾其一片海洋</p>
+	<p>播种善良，传递温暖，让心中有爱让生命无悔。</p>
+</br>
+	<h3 style="padding:1em;color:#CC0099">善良是一种修养</h3>
+	<p>善待他人就是善待自己，要想得到别人的爱，首先要学会爱别人，一个善良的人一定是温暖的人，乐于助人的人，懂得珍惜和感恩的人，不会因为因为小事而斤斤计较，也不会因为得失而过喜过悲，做事肯为他人考虑，小到帮助一个人，大到心里装着芸芸众生，每一次伸出双手都带着暖意，每一次回眸都留下浅浅的笑靥。善良是人生舞台最动人的旋律，如湛蓝的天空，干净通透，如开在红尘岁月中的兰，散发着宁静与淡泊，诠释着生命的云淡风轻。</p>
+　　<p>善良是心湖绽放柔媚的花朵，它如雪花一样晶莹纯洁，是人生的底色;它如太阳一般温暖明媚，是爱与爱传递的桥梁;它如山间泉水一样清彻透明，荡涤生命的尘埃;它如琴音一样拨动心弦，在心湖上奏出最动听的音乐，善良是一盏心灯，照亮人们前行的脚步，装点生命的诗行，善良是人生最美的风景。</p>
+
+
+</div>
+
+
+<div class="youbuju_1">
+<div id="main">
+  <div id="error">本页面采用HTML5编辑，目前您的浏览器无法显示，请换成谷歌(Chrome)或者火狐(Firefox)浏览器，或者其他游览器的最新版本。</div>
+  <div id="wrap">
+    <div id="text">
+      <div id="code"> <font color="#FF0000"> <span class="say">亲爱的小宝宝，我爱你，虽然你看不见我对你的告白</span><br>
+        <span class="say"> </span><br>
+        <span class="say"> 我知道我不会甜言蜜语，但是我会用行动证明一切</span><br>
+        <span class="say"> </span><br>
+        <span class="say">你说我啰嗦，有些东西因为越在乎所以越失去</span><br>
+        <span class="say">因为我太爱你了，所以我失去你了</span><br>
+        <span class="say">因为我太啰嗦了，所以你离开了我</span><br>
+        <span class="say">虽然你看不见我的告白，但是我还是要把这些心里话说出来</span><br>
+        <span class="say"> </span><br>
+        <span class="say"><span class="space"></span> -- jiubanyipeng --</span> </font>
+        </p>
+      </div>
+    </div>
+    <div id="clock-box"> <span class="STYLE1"></span><font color="#33CC00">亲爱的小宝宝，我喜欢你</font> <span class="STYLE1">已经是……</span>
+      <div id="clock"></div>
+    </div>
+    <canvas id="canvas" width="1100" height="680"></canvas>
+  </div>
+</div>
+</div>
+
+
+<script>
+    (function(){
+        var canvas = $('#canvas');
+        
+        if (!canvas[0].getContext) {
+            $("#error").show();
+            return false;        }
+
+        var width = canvas.width();
+        var height = canvas.height();        
+        canvas.attr("width", width);
+        canvas.attr("height", height);
+        var opts = {
+            seed: {
+                x: width / 2 - 20,
+                color: "rgb(190, 26, 37)",
+                scale: 2
+            },
+            branch: [
+                [535, 680, 570, 250, 500, 200, 30, 100, [
+                    [540, 500, 455, 417, 340, 400, 13, 100, [
+                        [450, 435, 434, 430, 394, 395, 2, 40]
+                    ]],
+                    [550, 445, 600, 356, 680, 345, 12, 100, [
+                        [578, 400, 648, 409, 661, 426, 3, 80]
+                    ]],
+                    [539, 281, 537, 248, 534, 217, 3, 40],
+                    [546, 397, 413, 247, 328, 244, 9, 80, [
+                        [427, 286, 383, 253, 371, 205, 2, 40],
+                        [498, 345, 435, 315, 395, 330, 4, 60]
+                    ]],
+                    [546, 357, 608, 252, 678, 221, 6, 100, [
+                        [590, 293, 646, 277, 648, 271, 2, 80]
+                    ]]
+                ]] 
+            ],
+            bloom: {
+                num: 700,
+                width: 1080,
+                height: 650,
+            },
+            footer: {
+                width: 1200,
+                height: 5,
+                speed: 10,
+            }
+        }
+
+        var tree = new Tree(canvas[0], width, height, opts);
+        var seed = tree.seed;
+        var foot = tree.footer;
+        var hold = 1;
+
+        canvas.click(function(e) {
+            var offset = canvas.offset(), x, y;
+            x = e.pageX - offset.left;
+            y = e.pageY - offset.top;
+            if (seed.hover(x, y)) {
+                hold = 0; 
+                canvas.unbind("click");
+                canvas.unbind("mousemove");
+                canvas.removeClass('hand');
+            }
+        }).mousemove(function(e){
+            var offset = canvas.offset(), x, y;
+            x = e.pageX - offset.left;
+            y = e.pageY - offset.top;
+            canvas.toggleClass('hand', seed.hover(x, y));
+        });
+
+        var seedAnimate = eval(Jscex.compile("async", function () {
+            seed.draw();
+            while (hold) {
+                $await(Jscex.Async.sleep(10));
+            }
+            while (seed.canScale()) {
+                seed.scale(0.95);
+                $await(Jscex.Async.sleep(10));
+            }
+            while (seed.canMove()) {
+                seed.move(0, 2);
+                foot.draw();
+                $await(Jscex.Async.sleep(10));
+            }
+        }));
+
+        var growAnimate = eval(Jscex.compile("async", function () {
+            do {
+                tree.grow();
+                $await(Jscex.Async.sleep(10));
+            } while (tree.canGrow());
+        }));
+
+        var flowAnimate = eval(Jscex.compile("async", function () {
+            do {
+                tree.flower(2);
+                $await(Jscex.Async.sleep(10));
+            } while (tree.canFlower());
+        }));
+
+        var moveAnimate = eval(Jscex.compile("async", function () {
+            tree.snapshot("p1", 240, 0, 610, 680);
+            while (tree.move("p1", 500, 0)) {
+                foot.draw();
+                $await(Jscex.Async.sleep(10));
+            }
+            foot.draw();
+            tree.snapshot("p2", 500, 0, 610, 680);
+
+            // 会有闪烁不得意这样做, (＞﹏＜)
+            canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
+            canvas.css("background", "#ffe");
+            $await(Jscex.Async.sleep(300));
+            canvas.css("background", "none");
+        }));
+
+        var jumpAnimate = eval(Jscex.compile("async", function () {
+            var ctx = tree.ctx;
+            while (true) {
+                tree.ctx.clearRect(0, 0, width, height);
+                tree.jump();
+                foot.draw();
+                $await(Jscex.Async.sleep(25));
+            }
+        }));
+
+        var textAnimate = eval(Jscex.compile("async", function () {
+            var together = new Date();
+            together.setFullYear(2010,1 , 15);          //时间年月日
+            together.setHours(16);                      //小时    
+            together.setMinutes(53);                    //分钟
+            together.setSeconds(0);                 //秒前一位
+            together.setMilliseconds(2);                //秒第二位
+
+            $("#code").show().typewriter();
+            $("#clock-box").fadeIn(500);
+            while (true) {
+                timeElapse(together);
+                $await(Jscex.Async.sleep(1000));
+            }
+        }));
+
+        var runAsync = eval(Jscex.compile("async", function () {
+            $await(seedAnimate());
+            $await(growAnimate());
+            $await(flowAnimate());
+            $await(moveAnimate());
+
+            textAnimate().start();
+
+            $await(jumpAnimate());
+        }));
+
+        runAsync().start();
+    })();
+</script>
+
+
+<div class="xiabuju">
+    <h3 style="text-align:center;color:#000;"><span>版权声明：&nbsp;仅用于学习与交流 &nbsp; 请勿将用于商业 &nbsp;邮箱：peng@jiubanyipeng.ltd</span></h3>
+</div>
+
+
+</div>
+
+</body>
+
+</html>

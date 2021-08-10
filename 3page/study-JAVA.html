@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>玖伴一鹏的个人学习</title>
+    <link rel="stylesheet" href="../css/3page.css">
+</head>
+ 
+<body>
+<div id="zongbuju-4">
+	<div class="zjbj-4">
+		<div class="dht">
+			<p>位置>>><a href="../index.html">首页</a>>><a href="../study.html">个人学习</a>>JAVA的学习</p>
+			<div class="dht-you">
+				<ul>
+					<li><a href="../index.html">返回首页</a></li>
+					<li><a href="../study.html">个人学习</a></li>
+					<li><a href="study-python.html">python的学习</a></li>
+					<li><a href="study-MYSQL.html">MYSQL的学习</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="neirong">
+			<h1>Java 基本数据类型</h1>
+			<p>变量就是申请内存来存储值。也就是说，当创建变量的时候，需要在内存中申请空间。</p>
+			<p>内存管理系统根据变量的类型为变量分配存储空间，分配的空间只能用来储存该类型数据。</p>
+			<p>因此，通过定义不同类型的变量，可以在内存中储存整数、小数或者字符。</p>
+			<p>Java 的两大数据类型:</p>
+			<ul>
+				<li>内置数据类型</li>
+				<li>引用数据类型</li>
+			</ul>
+			<h2>内置数据类型</h2>
+			<p>Java语言提供了八种基本类型。六种数字类型（四个整数型，两个浮点型），一种字符类型，还有一种布尔型。</p>
+			<p><b>byte：</b></p>
+			<ul>
+				<li>byte 数据类型是8位、有符号的，以二进制补码表示的整数;</li>
+				<li>最小值是 -128（-2^7）;</li>
+				<li>最大值是 127（2^7-1）；</li>
+				<li>默认值是 0；</li>
+				<li>byte 类型用在大型数组中节约空间，主要代替整数，因为 byte 变量占用的空间只有 int 类型的四分之一</li>
+				<li>例子：byte a = 100，byte b = -50。</li>
+			</ul>
+			<p><b>short：</b></p>
+			<ul>
+				<li>short 数据类型是 16 位、有符号的以二进制补码表示的整数</li>
+				<li>最小值是 -32768（-2^15）；</li>
+				<li>最大值是 32767（2^15 - 1）；</li>
+				<li>Short 数据类型也可以像 byte 那样节省空间。一个short变量是int型变量所占空间的二分之一；</li>
+				<li>默认值是 0；</li>
+				<li>例子：short s = 1000，short r = -20000。</li>
+			</ul>
+			<p><b>int：</b></p>
+			<ul>
+				<li>int 数据类型是32位、有符号的以二进制补码表示的整数；</li>
+				<li>最小值是 -2,147,483,648（-2^31）；</li>
+				<li>最大值是 2,147,483,647（2^31 - 1）；</li>
+				<li>一般地整型变量默认为 int 类型；</li>
+				<li>默认值是 0 ；</li>
+				<li>例子：int a = 100000, int b = -200000。</li>
+			</ul>
+			<p><b>long：</b></p>
+			<ul>
+				<li>long 数据类型是 64 位、有符号的以二进制补码表示的整数；</li>
+				<li>最小值是 -9,223,372,036,854,775,808（-2^63）；</li>
+				<li>最大值是 9,223,372,036,854,775,807（2^63 -1）；</li>
+				<li>这种类型主要使用在需要比较大整数的系统上；</li>
+				<li>默认值是 0L；</li>
+				<li>例子： long a = 100000L，Long b = -200000L。</li>
+				<li>"L"理论上不分大小写，但是若写成"l"容易与数字"1"混淆，不容易分辩。所以最好大写。</li>
+			</ul>
+			<p><b>float：</b></p>
+			<ul>
+				<li>float 数据类型是单精度、32位、符合IEEE 754标准的浮点数；</li>
+				<li>float 在储存大型浮点数组的时候可节省内存空间；</li>
+				<li>默认值是 0.0f；</li>
+				<li>浮点数不能用来表示精确的值，如货币；</li>
+				<li>例子：float f1 = 234.5f。</li>
+			</ul>
+			<p><b>double：</b></p>
+			<ul>
+				<li>double 数据类型是双精度、64 位、符合IEEE 754标准的浮点数；</li>
+				<li>浮点数的默认类型为double类型；</li>
+				<li>double类型同样不能表示精确的值，如货币；</li>
+				<li>默认值是 0.0d；</li>
+				<li>例子：double d1 = 123.4。</li>
+
+			</ul>
+			<p><b>boolean：</b></p>
+			<ul>
+				<li>boolean数据类型表示一位的信息；</li>
+				<li>只有两个取值：true 和 false；</li>
+				<li>这种类型只作为一种标志来记录 true/false 情况；</li>
+				<li>默认值是 false；</li>
+				<li>例子：boolean one = true。</li>
+
+			</ul>	
+			<p><b>char：</b></p>
+			<ul>
+				<li>char类型是一个单一的 16 位 Unicode 字符；</li>
+				<li>最小值是 \u0000（即为0）；</li>
+				<li>最大值是 \uffff（即为65,535）；</li>
+				<li>char 数据类型可以储存任何字符；</li>
+				<li>例子：char letter = 'A';。</li>
+
+			</ul>	
+			<h3>实例</h3>	
+			<p>对于数值类型的基本类型的取值范围，我们无需强制去记忆，因为它们的值都已经以常量的形式定义在对应的包装类中了。请看下面的例子：</p>
+			<div class="p-1">
+			  <p>public class PrimitiveTypeTest {</p>
+			  <div class="p-1-1">
+				    <p>public static void main(String[] args) {</p>
+				    <div class="p-1-2">
+				        <p>// byte</p>
+				        <p>System.out.println("基本类型：byte 二进制位数：" + Byte.SIZE);</p>  
+				        <p>System.out.println("包装类：java.lang.Byte");</p>  
+				        <p>System.out.println("最小值：Byte.MIN_VALUE=" + Byte.MIN_VALUE);</p>  
+				        <p>System.out.println("最大值：Byte.MAX_VALUE=" + Byte.MAX_VALUE);</p>  
+				        <p>System.out.println();</p>  <br>
+				  
+				        <p>// short</p>  
+				        <p>System.out.println("基本类型：short 二进制位数：" + Short.SIZE);</p>  
+				        <p>System.out.println("包装类：java.lang.Short");</p> 
+				        <p>System.out.println("最小值：Short.MIN_VALUE=" + Short.MIN_VALUE);</p> 
+				        <p>System.out.println("最大值：Short.MAX_VALUE=" + Short.MAX_VALUE); </p> 
+				        <p>System.out.println(); </p> <br>
+				  
+				        <p>// int </p> 
+				        <p>System.out.println("基本类型：int 二进制位数：" + Integer.SIZE); </p> 
+				        <p>System.out.println("包装类：java.lang.Integer");  </p>
+				        <p>System.out.println("最小值：Integer.MIN_VALUE=" + Integer.MIN_VALUE); </p> 
+				        <p>System.out.println("最大值：Integer.MAX_VALUE=" + Integer.MAX_VALUE); </p> 
+				        <p>System.out.println(); </p> <br>
+
+				        <p>// long  </p>
+				        <p>System.out.println("基本类型：long 二进制位数：" + Long.SIZE);</p>  
+				        <p><p>System.out.println("包装类：java.lang.Long");  </p>
+				        <p>System.out.println("最小值：Long.MIN_VALUE=" + Long.MIN_VALUE); </p> 
+				        <p>System.out.println("最大值：Long.MAX_VALUE=" + Long.MAX_VALUE); </p> 
+				        <p>System.out.println(); </p> <br>
+				  
+				        <p>// float  </p>
+				        <p>System.out.println("基本类型：float 二进制位数：" + Float.SIZE);  </p>
+				        <p>System.out.println("包装类：java.lang.Float");  
+				        <p>System.out.println("最小值：Float.MIN_VALUE=" + Float.MIN_VALUE);  </p></p>
+				        <p>System.out.println("最大值：Float.MAX_VALUE=" + Float.MAX_VALUE);  </p></p>
+				        <p>System.out.println();  </p><br>
+				  
+				        <p>// double  </p>
+				        <p>System.out.println("基本类型：double 二进制位数：" + Double.SIZE);  </p></p>
+				        <p>System.out.println("包装类：java.lang.Double");  </p>
+				        <p>System.out.println("最小值：Double.MIN_VALUE=" + Double.MIN_VALUE);  </p>
+				        <p>System.out.println("最大值：Double.MAX_VALUE=" + Double.MAX_VALUE);  </p>
+				        <p>System.out.println(); </p> <br>
+				  
+				        <p>// char  </p>
+				        <p>System.out.println("基本类型：char 二进制位数：" + Character.SIZE);  </p>
+				        <p>System.out.println("包装类：java.lang.Character");  </p>
+				       <p> // 以数值形式而不是字符形式将Character.MIN_VALUE输出到控制台  </p>
+				       <p> System.out.println("最小值：Character.MIN_VALUE="  </p>
+				                <p>+ (int) Character.MIN_VALUE);  </p>
+				        <p>// 以数值形式而不是字符形式将Character.MAX_VALUE输出到控制台  </p>
+				        <p>System.out.println("最大值：Character.MAX_VALUE="  </p>
+				                <p>+ (int) Character.MAX_VALUE);  </p>
+				    </div>
+				    <p>}  </p>
+				</div>
+				<p>}</p>	
+			</div>
+			<p>编译以上代码输出结果如下所示：</p>
+			<div class="p-1">
+				<p>基本类型：byte 二进制位数：8</p>
+				<p>包装类：java.lang.Byte</p>
+				<p>最小值：Byte.MIN_VALUE=-128</p>
+				<p>最大值：Byte.MAX_VALUE=127</p><br>
+
+				<p>基本类型：short 二进制位数：16</p>
+				<p>包装类：java.lang.Short</p>
+				<p>最小值：Short.MIN_VALUE=-32768</p>
+				<p>最大值：Short.MAX_VALUE=32767</p><br>
+
+				<p>基本类型：int 二进制位数：32</p>
+				<p>包装类：java.lang.Integer</p>
+				<p>最小值：Integer.MIN_VALUE=-2147483648</p>
+				<p>最大值：Integer.MAX_VALUE=2147483647</p><br>
+
+				<p>基本类型：long 二进制位数：64</p>
+				<p>包装类：java.lang.Long</p>
+				<p>最小值：Long.MIN_VALUE=-9223372036854775808</p>
+				<p>最大值：Long.MAX_VALUE=9223372036854775807</p><br>
+
+				<p>基本类型：float 二进制位数：32</p>
+				<p>包装类：java.lang.Float</p>
+				<p>最小值：Float.MIN_VALUE=1.4E-45</p>
+				<p>最大值：Float.MAX_VALUE=3.4028235E38</p><br>
+
+				<p>基本类型：double 二进制位数：64</p>
+				<p>包装类：java.lang.Double</p>
+				<p>最小值：Double.MIN_VALUE=4.9E-324</p>
+				<p>最大值：Double.MAX_VALUE=1.7976931348623157E308</p><br>
+
+				<p>基本类型：char 二进制位数：16</p>
+				<p>包装类：java.lang.Character</p>
+				<p>最小值：Character.MIN_VALUE=0</p>
+				<p>最大值：Character.MAX_VALUE=65535</p>
+			</div>
+			<p>Float和Double的最小值和最大值都是以科学记数法的形式输出的，结尾的"E+数字"表示E之前的数字要乘以10的多少次方。比如3.14E3就是3.14 × 103 =3140，3.14E-3 就是 3.14 x 10-3 =0.00314。</p>
+			<p>实际上，JAVA中还存在另外一种基本类型 void，它也有对应的包装类 java.lang.Void，不过我们无法直接对它们进行操作。</p>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

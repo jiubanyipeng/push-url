@@ -1,0 +1,245 @@
+*{ 
+	padding:0px;                   
+	margin:0px;                   
+}
+	/*这里是专门设置标签的缩进*/
+.p-1-1{
+	text-indent:4em;
+}
+	/*这里是专门设置标签的缩进*/
+.p-1-2{
+	text-indent:8em;
+}
+#zongbuju-1{
+	position:absolute; 
+	height:1500px;
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	background-image:url(../img/18.jpeg);
+}
+#zongbuju-1 a{
+	text-decoration:none;           /*取消下划线*/
+	color: #C0C;
+}
+.zjbj-1{
+	position:absolute;
+	top: 0;
+	left: 50px;
+	padding: 20px;
+	width: 90%;
+	height: 1400px;
+	background: #FFF;
+}
+#zongbuju-2{
+	position:absolute; 
+	height:1100px;
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	background-image:url(../img/18.jpeg);
+}
+#zongbuju-2 a{
+	text-decoration:none;           /*取消下划线*/
+	color: #C0C;
+}
+.zjbj-2{
+	position:absolute;
+	top: 0;
+	left: 50px;
+	padding: 20px;
+	width: 90%;
+	height: 1000px;
+	background: #FFF;
+}
+#zongbuju{
+	position:absolute; 
+	height:3200px;
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	background-image:url(../img/18.jpeg);
+}
+#zongbuju a{
+	text-decoration:none;           /*取消下划线*/
+	color: #C0C;
+}
+.zjbj{
+	position:absolute;
+	top: 0;
+	left: 50px;
+	padding: 20px;
+	width: 90%;
+	height: 3100px;
+	background: #FFF;
+}
+#zongbuju-4{
+	position:absolute; 
+	height:5100px;
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	background-image:url(../img/18.jpeg);
+}
+#zongbuju-4 a{
+	text-decoration:none;           /*取消下划线*/
+	color: #C0C;
+}
+.zjbj-4{
+	position:absolute;
+	top: 0;
+	left: 50px;
+	padding: 20px;
+	width: 90%;
+	height: 5000px;
+	background: #FFF;
+}
+#zongbuju-5{
+	position:absolute; 
+	height:2600px;
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	background-image:url(../img/18.jpeg);
+}
+#zongbuju-5 a{
+	text-decoration:none;           /*取消下划线*/
+	color: #C0C;
+}
+.zjbj-5{
+	position:absolute;
+	top: 0;
+	left: 50px;
+	padding: 20px;
+	width: 90%;
+	height: 2500px;
+	background: #FFF;
+}
+#zongbuju-6{
+	position:absolute; 
+	height:1800px;
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	background-image:url(../img/18.jpeg);
+}
+#zongbuju-6 a{
+	text-decoration:none;           /*取消下划线*/
+	color: #C0C;
+}
+.zjbj-6{
+	position:absolute;
+	top: 0;
+	left: 50px;
+	padding: 20px;
+	width: 90%;
+	height: 1700px;
+	background: #FFF;
+}
+
+.dht{
+	position: absolute;
+	top:0;
+	padding: 20px;
+	height: 50px;
+	width: 90%;
+}
+.dht a:hover{
+	background-color:#0FF;
+}
+.dht-you{
+	position: absolute;
+	height: 30px;
+	right:5%;
+	background-color:#DCDCDC; 
+	}
+.dht-you ul li {
+	text-align:center;
+	list-style:none;
+	float:left;   
+	padding: 0 20px;
+}
+.neirong{
+	position: absolute;
+	top:80px;
+	width: 93%;
+	height: auto;
+	border:2px solid #069;
+	line-height:30px;/*文件的行高*/ 
+	text-indent:2em;
+}
+.neirong a:hover{
+	color: #9CF;
+	background-color: #003; 
+}
+.neirong h2{
+	padding: 20px;
+	text-indent:1em;/*设置字体首行缩进1个字体*/
+}
+.neirong ul{
+	text-indent:4em;
+	font-size:15px;
+}
+	/*这里是针对三级页面的代码放入的设置*/
+.p-1{
+	padding:0;
+	margin-left:2em; 
+	font-size:15px;
+	width: 90%;
+	height: auto;
+	border:2px solid #0F0;
+	background-color: #FFF0F5;
+}
+.b-height{
+	margin-top:2em; 
+	padding-top: 2em;
+	line-height:3em;
+}
+.neirong2-1{
+	position: absolute;
+	top:80px;
+	width: 93%;
+	height: auto;
+	border:2px solid #069;
+	line-height:30px;/*文件的行高*/ 
+	text-indent:2em;
+}
+.neirong2-1 a:hover{
+	color: #9CF;
+	background-color: #003; 
+}
+.neirong2-1 h2,h3,h1,h4{
+	padding: 20px;
+	text-indent:1em;/*设置字体首行缩进1个字体*/
+}
+.neirong2-1 ul{
+	text-indent:4em;
+	font-size:15px;
+}
+.neirong2-1 ol{
+	margin-left: 3em;
+
+}
+.neirong2-1 span{
+	position: absolute;
+	left:350px;
+	
+}
+.table-1{
+	margin: 10px 20px;
+	width: 95%;
+	height: auto; 
+	border: 2px solid #000;
+
+}
+.table-1 td,th{
+	border: 0;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}

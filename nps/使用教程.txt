@@ -1,0 +1,9 @@
+﻿服务器：
+  一：安装配置：管理员身份运行cmd，进入安装目录 nps.exe install  （配置文件默认会安装在C:\Program Files\nps）
+  二：启动：管理员身份运行cmd，进入程序目录 nps.exe start     
+  三：访问服务端ip:web服务端口（默认为8080）密码默认admin/123
+	1.先添加客户端
+	2.域名解析，通用
+	3.按自己需要添加
+客户端：
+连接：nps.exe -server=公网IP:端口 -vkey=客户端的密钥cyamkfe4gx6qqoij（默认端口是8024的）

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>python的笔记</title>
+    <link rel="stylesheet" href="../css/3page.css">
+</head>
+<body>
+<div id="zongbuju">
+	<div class="zjbj">
+		<div class="dht">
+			<p>位置>>><a href="../index.html">首页</a>>><a href="../note.html">个人笔记</a>>python的笔记</p>
+			<div class="dht-you">
+				<ul>
+					<li><a href="../index.html">返回首页</a></li>
+					<li><a href="../note.html">个人笔记</a></li>
+					<li><a href="note-JAVA.html">JAVA的笔记</a></li>
+					<li><a href="note-MYSQL.html">MYSQL的笔记</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="neirong">
+			<h2>Python3 基本数据类型</h2>
+			<p>Python 中的变量不需要声明。每个变量在使用前都必须赋值，变量赋值以后该变量才会被创建。</p>
+			<p>在 Python 中，变量就是变量，它没有类型，我们所说的"类型"是变量所指的内存中对象的类型。</p>
+			<p>等号（=）用来给变量赋值。</p>
+			<p>等号（=）运算符左边是一个变量名,等号（=）运算符右边是存储在变量中的值。例如：</p>
+			<div class="p-1">
+				<p>counter = 100          # 整型变量</p>
+				<p>miles   = 1000.0       # 浮点型变量</p>
+				<p>name    = "runoob"     # 字符串</p>
+				<p>print (counter)</p>
+				<p>print (miles)</p>
+				<p>print (name)</p>
+			</div>
+			<p><b>以上代码输出为：</b></p>
+			<div class="p-1">
+				<p>100</p>
+				<p>1000.0</p>
+				<p>runoob</p>
+			</div>
+			<h3>多个变量赋值</h3>
+			<p>Python允许你同时为多个变量赋值。例如：</p>
+			<div class="p-1">
+				<p>a = b = c = 1</p>
+			</div>
+			<p>以上实例，创建一个整型对象，值为 1，从后向前赋值，三个变量被赋予相同的数值。</p>
+			<p>也可以为多个对象指定多个变量。例如：</p>
+			<div class="p-1">
+				<p>a, b, c = 1, 2, "runoob"</p>
+			</div>
+			<p>以上实例，两个整型对象 1 和 2 的分配给变量 a 和 b，字符串对象 "runoob" 分配给变量 c。</p>
+			<h2>标准数据类型</h2>
+			<p>Python3 中有六个标准的数据类型：</p>
+				<ul>
+					<li>Number（数字）</li>
+					<li>String（字符串）</li>
+					<li>List（列表）</li>
+					<li>Tuple（元组）</li>
+					<li>Set（集合）</li>
+					<li>Dictionary（字典）</li>
+				</ul>
+			<p>Python3 的六个标准数据类型中：</p>
+			<ul>
+				<li><b>不可变数据（3 个）</b>：Number（数字）、String（字符串）、Tuple（元组）；</li>
+				<li><b>可变数据（3 个）</b>：List（列表）、Dictionary（字典）、Set（集合）。</li>
+			</ul>
+			<h2>Number（数字）</h2>
+			<p>Python3 支持 int、float、bool、complex（复数）。</p>
+			<p>在Python 3里，只有一种整数类型 int，表示为长整型，没有 python2 中的 Long。</p>
+			<p>像大多数语言一样，数值类型的赋值和计算都是很直观的。</p>
+			<p>内置的 type() 函数可以用来查询变量所指的对象类型。</p>
+			<div class="p-1">
+				<p>>>> a, b, c, d = 20, 5.5, True, 4+3j</p>
+				<p>>>> print(type(a), type(b), type(c), type(d))</p>
+				<p><class 'int'> <class 'float'> <class 'bool'> <class 'complex'></p>
+			</div>
+			<p>此外还可以用 isinstance 来判断：</p>
+			<div class="p-1">
+				<p>>>> a = 111</p>
+				<p>>>> isinstance(a, int)</p>
+				<p>True</p>
+				<p>>>></p>
+			</div>
+			<p>isinstance 和 type 的区别在于：</p>
+			<ul>
+				<li>type()不会认为子类是一种父类类型。</li>
+				<li>isinstance()会认为子类是一种父类类型。</li>
+			</ul>
+			<div class="p-1">	
+				<p>>>> class A:</p>
+				<p>...&nbsp; &nbsp;&nbsp;&nbsp;pass</p>
+				<p>... </p>
+				<p>>>> class B(A):</p>
+				<p>...&nbsp; &nbsp;&nbsp;&nbsp;pass</p>
+				<p>... </p>
+				<p>>>> isinstance(A(), A)</p>
+				<p>True</p>
+				<p>>>> type(A()) == A </p>
+				<p>True</p>
+				<p>>>> isinstance(B(), A)</p>
+				<p>True</p>
+				<p>>>> type(B()) == A</p>
+				<p>False</p>
+			</div>	
+			<div class="p-1">
+			<p><b>注意：</b>在 Python2 中是没有布尔型的，它用数字 0 表示 False，用 1 表示 True。到 Python3 中，把 True 和 False 定义成关键字了，但它们的值还是 1 和 0，它们可以和数字相加。</p>		
+			</div>
+			<p>当你指定一个值时，Number 对象就会被创建：</p>
+			<div class="p-1">
+			<p>var1 = 1</p>
+			<p>var2 = 10</p>				
+			</div>
+			<p>您也可以使用del语句删除一些对象引用。</p>
+			<p>del语句的语法是：			</p>
+			<div class="p-1">
+				<p>del var1[,var2[,var3[....,varN]]]</p>
+			</div>
+			<p>您可以通过使用del语句删除单个或多个对象。例如：</p>
+			<div class="p-1">		
+			<p>del var</p>
+			<p>del var_a, var_b</p>		
+			</div>	
+			<h3>数值运算</h3>		
+			<div class="p-1">
+				<p>>>> 5 + 4  # 加法</p>
+				<p>9</p>
+				<p>>>> 4.3 - 2 # 减法</p>
+				<p>2.3</p>
+				<p>>>> 3 * 7  # 乘法</p>
+				<p>21</p>
+				<p>>>> 2 / 4  # 除法，得到一个浮点数</p>
+				<p>0.5</p>
+				<p>>>> 2 // 4 # 除法，得到一个整数</p>
+				<p>0</p>
+				<p>>>> 17 % 3 # 取余</p>
+				<p>2</p>
+				<p>>>> 2 ** 5 # 乘方</p>
+				<p>32</p>
+			</div>
+			<p><b>注意：</b></p>
+			<ul>
+				<li>1、Python可以同时为多个变量赋值，如a, b = 1, 2</li>
+				<li>2、一个变量可以通过赋值指向不同类型的对象。</li>
+				<li>3、数值的除法包含两个运算符：/ 返回一个浮点数，// 返回一个整数。</li>
+				<li>4、在混合计算时，Python会把整型转换成为浮点数。</li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,7 @@
+index.html   网站的主页(暂时不写)
+htgl.php     后台管理
+tjxw.php     编辑添加新闻页面
+ckxw.php     查看详细新闻页面 
+zxsjczs      执行数据修改、添加数据处理的页面
+bjxg.php     编辑修改新闻页面
+scxw.php     删除新闻处理页面

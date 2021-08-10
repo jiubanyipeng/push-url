@@ -1,0 +1,29 @@
+Return-Path: wordpress@jiubanyipeng.ltd
+Received: from 172_17_0_8 (172_17_0_8 [127.0.0.1])
+	by 172_17_0_8 with ESMTP
+	; Tue, 25 May 2021 13:57:16 +0800
+Subject: =?UTF-8?B?5pawV29yZFByZXNz56uZ54K5?=
+To: peng@jiubanyipeng.ltd
+Date: Tue, 25 May 2021 05:57:16 +0000
+From: WordPress <wordpress@jiubanyipeng.ltd>
+Message-ID: <752OFgfDz9JgOqDOsSQzecck5FRzhl5ORUX3iFcuQ@localhost>
+X-Mailer: PHPMailer 6.4.1 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+您的新WordPress站点已被成功建立：
+
+https://jiubanyipeng.ltd/boke
+
+您可以用以下信息登录管理员账户：
+
+用户名：jiubanyipeng
+密码：您在安装时选择的密码。
+在此登录：https://jiubanyipeng.ltd/boke/wp-login.php
+
+我们希望您喜欢您的新站点。谢谢！
+
+——WordPress团队
+https://wordpress.org/
+

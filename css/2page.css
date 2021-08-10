@@ -1,0 +1,83 @@
+	*{ 
+		padding:0px;                   
+	 	margin:0px;                   
+	}
+	#zongbuju{
+		position:absolute; 
+		height:1500px;
+		width:100%;
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+		background-attachment:fixed;
+		background-image:url(../img/18.jpeg);
+	}
+	#zongbuju a{
+		text-decoration:none;           /*取消下划线*/
+		color: #C0C;
+	}
+	.zjbj{
+		position:absolute;
+		top: 20px;
+		left: 50px;
+		padding: 20px;
+		width: 90%;
+		height: 1400px;
+		background: #FFF;
+	}
+	.dht{
+		position: absolute;
+		top:0;
+		padding: 20px;
+		height: 50px;
+		width: 90%;
+		border:2px solid #FFF;
+	}
+	.dht a:hover{
+		background-color:#0FF;
+
+	}
+	.dht-you{
+		position: absolute;
+		height: 30px;
+		right:5%;	
+		background-color:#DCDCDC; 
+	}
+	.dht-you ul li {
+		text-align:center;
+		list-style:none;
+		float:left;   
+		padding: 0 20px;
+	}
+	.neirong{
+		position: absolute;
+		padding: 20px;
+		top:100px;
+		width: 90%;
+		height:auto;
+		border:2px solid #069;
+		text-indent: 2em;/*设置字体首行缩进2个字体*/
+	 	line-height:30px;/*文件的行高*/ 
+	}
+	.neirong ul{
+		list-style:none;
+	}
+	.neirong a:hover{
+		color: #9CF;
+		background-color: #003; 
+	}
+	.neirong ol{
+		text-indent:2em; 
+		padding-left: 100px; 
+	}
+	.neirong h2,h3,h4,h1{
+		padding: 20px;
+	}
+	/*内容里面的标题*/
+	.neirong-p{
+		height: 30px;
+		/*border:2px solid #049;*/
+		width:180px;
+		margin:10px 20px; 
+		font-weight:bold;                   /*设置p标签文本加粗*/
+		font-size:25px;                     /*设置p标签文本字号为20px*/
+	}
